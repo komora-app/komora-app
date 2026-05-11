@@ -1,7 +1,7 @@
 {
-  "name": "komora-app",
+  "name": "api",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/komora-app/src",
+  "sourceRoot": "apps/api/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -23,15 +23,15 @@
       "defaultConfiguration": "development",
       "dependsOn": ["build"],
       "options": {
-        "buildTarget": "komora-app:build",
+        "buildTarget": "api:build",
         "runBuildTargetDependencies": false
       },
       "configurations": {
         "development": {
-          "buildTarget": "komora-app:build:development"
+          "buildTarget": "api:build:development"
         },
         "production": {
-          "buildTarget": "komora-app:build:production"
+          "buildTarget": "api:build:production"
         }
       }
     },

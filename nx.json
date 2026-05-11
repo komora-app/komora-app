@@ -36,7 +36,7 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/komora-app-e2e/**/*"]
+      "exclude": ["apps/api-e2e/**/*"]
     }
   ]
 }
