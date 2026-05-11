@@ -57,7 +57,10 @@
           "buildTarget": "client:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "development",
+      "options": {
+        "proxyConfig": "apps/client/proxy.config.json"
+      }
     },
     "extract-i18n": {
       "executor": "@angular/build:extract-i18n",
